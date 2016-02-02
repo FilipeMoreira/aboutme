@@ -1,0 +1,249 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+p{
+	text-align: justify;
+}
+
+header{
+	background-color: #337ab7;
+	font-size: 23px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    background: -webkit-linear-gradient(#337ab7, #2269a6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#337ab7, #2269a6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#337ab7, #2269a6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#337ab7, #2269a6); /* Standard syntax */
+    box-shadow: 0 3px 4px 2px rgba(0,0,0,0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+footer{
+	width: 100%;
+	margin-top: 32px;
+	-webkit-box-shadow: inset 0px 71px 55px -63px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 71px 55px -63px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 71px 55px -63px rgba(0,0,0,0.75);
+	min-height: 256px;
+	background-color: #d9d9d9;
+	padding-top: 64px;
+	/*
+	background: rgba(73,199,0,1);
+	background: -moz-linear-gradient(-45deg, rgba(73,199,0,1) 0%, rgba(24,143,0,1) 26%, rgba(255,242,0,1) 41%, rgba(255,242,0,1) 62%, rgba(31,139,255,1) 78%, rgba(0,115,255,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(73,199,0,1)), color-stop(26%, rgba(24,143,0,1)), color-stop(41%, rgba(255,242,0,1)), color-stop(62%, rgba(255,242,0,1)), color-stop(78%, rgba(31,139,255,1)), color-stop(100%, rgba(0,115,255,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(73,199,0,1) 0%, rgba(24,143,0,1) 26%, rgba(255,242,0,1) 41%, rgba(255,242,0,1) 62%, rgba(31,139,255,1) 78%, rgba(0,115,255,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(73,199,0,1) 0%, rgba(24,143,0,1) 26%, rgba(255,242,0,1) 41%, rgba(255,242,0,1) 62%, rgba(31,139,255,1) 78%, rgba(0,115,255,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(73,199,0,1) 0%, rgba(24,143,0,1) 26%, rgba(255,242,0,1) 41%, rgba(255,242,0,1) 62%, rgba(31,139,255,1) 78%, rgba(0,115,255,1) 100%);
+	*/
+}
+
+footer img{
+	margin-left: 13px;
+	box-shadow: 0 2px 4px 2px rgba(0,0,0,0.3);
+}
+
+header ul{
+	list-style: none;
+	display: inline;
+	padding: 0 !important;
+}
+
+header ul li{
+	display: inline;
+	margin-right: 23px;
+	color: #ddd;
+	cursor: pointer;
+}
+
+header ul li:hover{
+	text-shadow: 0 0 7px rgba(255,255,255,0.8);
+}
+
+header ul li img{
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.8);
+}
+
+header ul li img:hover{
+	box-shadow: 0 0 7px 0 rgba(255,255,255,0.8);
+}
+
+.header-li-active{
+	color: #fff;
+	text-shadow: 0 0 7px rgba(255,255,255,0.8);
+}
+
+.col-md-10 p{
+	padding-left: 50px;
+}
+
+.col-md-2{
+	font-weight: bold;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.vertical-displacer{
+	height: 64px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.fixed-right{
+	position: fixed;
+}
+
+.op-8{
+	opacity: 0.8;
+}
+
+.z-10{
+	z-index: 10;
+}
+
+.padding-top-26{
+	padding-top: 26px;
+}
+
+.displaced{
+	margin-top: 26px;
+}
+
+.no-padding{
+	padding: 13px !important;
+}
+
+.shadow-hover:hover{
+	-webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+    margin-top: -2px;
+}
+
+.font{
+	font-size: 15px;
+}
+
+#brand{
+	color: #000 !important;
+	cursor: text !important;
+	font-weight: bold;
+	/*text-shadow: 1px 0 4px rgba(0,0,0,0.4);*/
+}
+
+#brand:hover{
+	text-shadow: none !important;
+}
+/* #337ab7 */
+
+
+/* MAZE ATTRIBUTES */
+.labirinto{
+	background-color: #fff;
+	width: 588px;
+	height: 588px;
+	z-index: 0;
+	box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+}
+
+.parede{
+	background-color: #000;
+	position: fixed;
+	z-index: 5;
+	/*box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);*/
+}
+
+.parede-horizontal{
+	width: 11px;
+	height: 1px;
+}
+
+.parede-vertical{
+	width: 1px;
+	height: 11px;
+}
+
+.jogador{
+	width: 11px;
+	height: 11px;
+	left: 0;
+	top: 0;
+	background-color: #1122ff;
+	position: fixed;
+    box-shadow: inset 0 0 0 4px rgba(255,255,255,0.3);
+	z-index: 4;
+}
+
+.luz{
+    width: 11px;
+	height: 11px;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	position: fixed;
+	z-index: 2;
+}
+
+.escuro{
+    width: 588px;
+    height: 588px;
+    left: 0;
+    top: 0;
+	background-color: #000;
+	position: fixed;
+	z-index: 1;
+}
+
+.fim{
+	width: 11px;
+	height: 11px;
+	left: 539px;
+	top: 539px;
+	background-color: #11ff22;
+	position: fixed;
+	z-index: 3;
+}
+
+.caminho{
+	width: 11px;
+	height: 11px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 2;
+}
+
+.percurso{
+	width: 11px;
+	height: 11px;
+	background-color: #1122ff;
+	position: fixed;
+	z-index: 3;
+}
+
+.debug{
+	width: 350px;
+	height: 500px;
+	overflow-y: auto;
+	background-color: #000;
+	color: #22aa22;
+	border-radius: 10px;
+	padding: 4px;
+}
+
+.image{
+	position: fixed;
+}
