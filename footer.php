@@ -3,7 +3,7 @@
 			<div class='left'>
 				<p>Filipe Moreira</p>
 				<p>Computer Science @ Pace University</p>
-				<p><i>"Technology, code, math, music"</i></p>
+				<p><i>"Technology, code, math, music, art"</i></p>
 			</div>
 
 			<div calss='flag-displacer right'>
