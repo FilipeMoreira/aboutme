@@ -4,6 +4,32 @@
 
 <section class='container displaced'>
 	<div class='row'>
+		<div class='col-md-3'>
+			<img src="imgs/me.jpg" width="100%" class='img-circle'>
+			<center><h3>Filipe Moreira</h3></center>
+			<p>Brazilian</p>
+			<p>23 Years old</p>
+			<p>Computational Math & Computer Science</p>
+			<p>Undergrad Exchange Student at Pace University</p>
+			<p>Tech, code, math, music and other forms of art lover and enthusiast.</p>
+			<hr>
+			<p>filipemoreira23@gmail.com</p>
+			<p>1 (917) 346 9761</p>
+			<hr>
+			<div class='container-fluid'>
+				<div class='row'>
+					<center>
+						<div class='col-md-6'>
+							<a href="https://www.facebook.com/filipemoreira237" target="blank"><img src="imgs/fb.png" width='100%' class='shadow-hover'></a>
+						</div>
+						<div class='col-md-6'>
+							<a href="https://www.linkedin.com/in/filipe-moreira-76a89570" target="blank"><img src="imgs/linkedin.png" width='100%' class='shadow-hover'></a>
+						</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class='col-md-1'></div>
 		<div class='col-md-8'>
 			<center><h2 style="margin-top:-6px">A little bit about me</h2></center>
 			<hr>
@@ -24,34 +50,10 @@
 					 On November 9th this year I won 
 					a fast game creation competition on a Microsoft hosted workshop that took place at Pace University.</p><br>
 				<p>Right now, during this spring semester, I'm looking for a internship for the summer to complete my experience and
-					improve my abilities and knowledge. Software Engineering and Web Development are areas I'm really interested into
+					improve my abilities and knowledge. Software Engineering and Web Development are areas I'm really interested in
 					working with.</p>
 					<br>
 				<p>Also, beyond computers and all the technology arts, I am a guitar player and music, movies and theatre lover.</p>
-			</div>
-		</div>
-		<div class='col-md-1'></div>
-		<div class='col-md-3'>
-			<img src="imgs/me.jpg" width="100%" class='img-circle'>
-			<center><h3>Filipe Moreira</h3></center>
-			<p>Brazilian</p>
-			<p>23 Years old</p>
-			<p>Computational Math & Computer Science</p>
-			<p>Undergrad Exchange Student at Pace University</p>
-			<p>Tech, code, math, music and other forms of art lover and enthusiast.</p>
-			<hr>
-			<p>filipemoreira23@gmail.com</p>
-			<p>1 (917) 346 9761</p>
-			<hr>
-			<div class='container-fluid'>
-				<div class='row'>
-					<div class='col-md-6'>
-						<a href="https://www.facebook.com/filipemoreira237" target="blank"><img src="imgs/fb.png" width='100%' class='shadow-hover'></a>
-					</div>
-					<div class='col-md-6'>
-						<a href="https://www.linkedin.com/in/filipe-moreira-76a89570" target="blank"><img src="imgs/linkedin.png" width='100%' class='shadow-hover'></a>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>

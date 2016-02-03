@@ -127,6 +127,12 @@ header ul li img:hover{
 	padding: 13px !important;
 }
 
+.shadow-hover{
+	max-width: 76px;
+	max-height: 76px;
+	margin-bottom: 13px;
+}
+
 .shadow-hover:hover{
 	-webkit-box-shadow: 0 8px 6px -6px black;
      -moz-box-shadow: 0 8px 6px -6px black;
