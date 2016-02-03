@@ -121,15 +121,15 @@ Cumulative GPA: 4/4<br><br>
 		<div class='col-md-10'> 
 			<div class='container-fluid'>
 				<div class='row'>
-					<div class='col-md-3'>
+					<div class='col-sm-6'>
 						Java<br>
 						SQL<br>
-						Web (HTML, CSS, Javascript)<br>
+						Web (HTML, CSS, JS)<br>
 						C/Visual Basic<br>
 						Flash ActionScript<br>
 						C++/JSP/PHP/Python
 					</div>
-					<div class='col-md-9'>
+					<div class='col-sm-6'>
 						8 years<br>
 						7 years<br>
 						6 years<br>
@@ -140,7 +140,7 @@ Cumulative GPA: 4/4<br><br>
 				</div>
 			</div>
 			<br>
-			<p class='no-padding'>Platforms: Win 95 – 10, Linux, OSX<br>
+			<p>Platforms: Win 95 – 10, Linux, OSX<br>
 			RDBMS: SQL Server (7 years), MySQL (5 years), pgAdmin (3 years)<br>
 			Applications: Photoshop (intermediate)<br>
 			Other: Android, Swift, JSF, Laravel, Angular-JS, Axiom</p>

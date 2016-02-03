@@ -83,6 +83,18 @@ header ul li img:hover{
 	padding-left: 50px;
 }
 
+.col-md-10 .container-fluid .row .col-sm-6{
+	padding-left: 50px;
+}
+
+.col-md-10 .container-fluid .row p{
+	padding-left: 50px;
+}
+
+.col-sm-6{
+	font-size: 15px !important;
+}
+
 .col-md-2{
 	font-weight: bold;
 }
