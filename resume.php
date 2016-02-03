@@ -143,7 +143,7 @@ Cumulative GPA: 4/4<br><br>
 			<p class='no-padding'>Platforms: Win 95 – 10, Linux, OSX<br>
 			RDBMS: SQL Server (7 years), MySQL (5 years), pgAdmin (3 years)<br>
 			Applications: Photoshop (intermediate)<br>
-			Other: Android, Swift, JSF, Laravel, Node-JS, Angular-JS, Axiom</p>
+			Other: Android, Swift, JSF, Laravel, Angular-JS, Axiom</p>
 		</div>
 	</div>
 </div>
