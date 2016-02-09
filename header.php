@@ -9,7 +9,7 @@
     <script type="text/javascript" src='js/script.js'></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class='body'>
     <header>
         <div class='container'>
             <ul>
