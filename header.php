@@ -16,6 +16,7 @@
                 <li id='brand'>Filipe Moreira</li>
                 <a href="index.php"><li id='home-link'>Background</li></a>
                 <a href="resume.php"><li id='resume-link'>Resume</li></a>
+                <a href="database.php"><li id='database-link'>Database & PHP</li></a>
                 <a href="mazes.php"><li id='mazes-link'>Mazes</li></a>
             </ul>
         </div>

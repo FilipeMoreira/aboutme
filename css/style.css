@@ -77,7 +77,19 @@ header ul li img:hover{
 section{
 	background-color: #fff;
 }
+/*
+table tr th{
+	padding: 5px;
+	background-color: #d9d9d9;
+	font-weight: bold;
+	text-align: center;
+}
 
+table tr td{
+	padding: 5px;
+	text-align: center;
+}
+*/
 .container{
 	border-radius: 10px;
 }
@@ -272,4 +284,21 @@ section{
 
 .image{
 	position: fixed;
+}
+
+.scrollable{
+	cursor: pointer;
+	overflow-y: scroll;
+    max-height:320px;
+-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+          box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+}
+
+.rss-pannel{
+	overflow-y: scroll;
+    max-height:520px;
+-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+          box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
 }

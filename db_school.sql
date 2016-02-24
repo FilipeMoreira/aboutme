@@ -5,6 +5,7 @@ create table student(
     s_name varchar(60) not null,
     age int not null
 );
+
 create table professor(
 	id int auto_increment primary key,
     p_name varchar(60) not null,
@@ -65,3 +66,11 @@ insert into class(area,room_number,id_professor) value ('Computer Science',102,1
 insert into class(area,room_number,id_professor) value ('Computer Science',103,12);
 insert into class(area,room_number,id_professor) value ('Computer Science',106,13);
 insert into class(area,room_number,id_professor) value ('Computer Science',109,14);
+
+create table student_class(
+	s_id int not null,
+    c_id int not null,
+    foreign key (s_id) references student(id),
+    foreign key (c_id) references class(id),
+    primary key (s_id, c_id)
+);
