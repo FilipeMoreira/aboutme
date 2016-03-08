@@ -51,7 +51,7 @@
 				if($result = mysqli_query($link, $sql)){
 				    if(mysqli_num_rows($result) > 0){
 				        while($row = mysqli_fetch_array($result)){
-				        	echo "<li class='list-group-item'>". $row['s_name'] ."</li>";
+				        	echo "<li class='list-group-item' id='s_". $row['s_id'] ."'>". $row['s_name'] ."<div class='btn btn-danger right' style='margin-top:-7px' onclick='removeStudent(". $row['s_id'] .")'>Remove</div></li>";
 				        }
 				        // Close result set
 				        mysqli_free_result($result);
@@ -93,6 +93,7 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$("#database-link").css({"color":"#fff", "text-shadow":"0 0 7px rgba(255,255,255,0.8)"});
+
 			$(".r_student").click(function(event){
 				var id = event.currentTarget.attributes.id.value;
 				var name = event.currentTarget.textContent;
@@ -104,7 +105,7 @@
 					data: { s: id, c: class_id }
 				}).done(function( info ) {
 					if(info=="OK"){
-						document.getElementById("students_list").innerHTML = document.getElementById("students_list").innerHTML + "<li class='list-group-item'>"+ name +"</li>";
+						document.getElementById("students_list").innerHTML = document.getElementById("students_list").innerHTML + "<li class='list-group-item' id='s_"+ id +"'>"+ name +"<div class='btn btn-danger right' style='margin-top:-7px' onclick='removeStudent("+ id +")'>Remove</div></li>";
 						if($("#no_students")){
 							$("#no_students").remove();
 						}
@@ -112,6 +113,23 @@
 				});
 			});
 		});
+
+		function removeStudent(s_id){
+				var id = s_id;
+				var class_id = document.getElementById("class_id").innerText;
+
+				$.ajax({
+					method: "POST",
+					url: "drop_from_class.php",
+					data: { s: id, c: class_id }
+				}).done(function( info ) {
+					if(info=="OK"){
+						$("#s_"+id).remove();
+					}else{
+						console.log(info);
+					}
+				});
+		}
 	</script>
 
 </section>
